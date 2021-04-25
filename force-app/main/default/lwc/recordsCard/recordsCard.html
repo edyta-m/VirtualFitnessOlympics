@@ -4,6 +4,9 @@
             <lightning-datatable
                  key-field="Id"
                 data={contacts.data}
+                show-row-number-column
+                row-number-offset={rowOffset}
+                suppress-bottom-bar
                 columns={columns}
                 hide-checkbox-column="true"
             >
